@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Javascript calculator</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    Shirsendu<span id="logo-s">'</span>s Calculator
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="calculator">
+                <div class="display">
+                    <input type="text" id="display" placeholder="0" disabled>
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <button class="button column operator" value="+">+</button>
+                        <button class="button column operator" value="-">-</button>
+                        <button class="button column operator" value="*">*</button>
+                        <button class="button column operator" value="/">/</button>
+                    </div>
+                    <div class="row">
+                        <button class="button column" value="7">7</button>
+                        <button class="button column" value="8">8</button>
+                        <button class="button column" value="9">9</button>
+                        <button class="button column operator" value="CE">CE</button>
+                    </div>
+                    <div class="row">
+                        <button class="button column" value="4">4</button>
+                        <button class="button column" value="5">5</button>
+                        <button class="button column" value="6">6</button>
+                        <button class="button column operator" value="C">C</button>
+                    </div>
+                    <div class="row">
+                        <button class="button column" value="1">1</button>
+                        <button class="button column" value="2">2</button>
+                        <button class="button column" value="3">3</button>
+                        <button class="button column operator" value="%">%</button> 
+                    </div>
+                </div>
+                <div class="row last-row">
+                    <button class="button column" value="0">0</button>
+                    <button class="button column" value="00">00</button>
+                    <button class="button column" value=".">.</button>
+                    <button class="button column operator" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 <span>S</span>hirsendu's <span>C</span>alculator</p>
+    </footer>
+    <script src="./logic/index.js"></script>
+</body>
+</html>
